@@ -1,0 +1,7 @@
+- hosts: group
+  tasks:
+    - name: Ping
+      ping:
+    - name: Get Ip address
+      command:
+        cmd: ip a
